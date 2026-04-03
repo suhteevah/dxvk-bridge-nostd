@@ -1,0 +1,16 @@
+[package]
+name = "dxvk-bridge-nostd"
+version = "0.1.0"
+edition = "2024"
+authors = ["Matt Gates <suhteevah@gmail.com>"]
+license = "MIT OR Apache-2.0"
+description = "no_std DirectX 9/11/12 to Vulkan translation layer in Rust"
+repository = "https://github.com/suhteevah/dxvk-bridge-nostd"
+keywords = ["directx", "dxvk", "vulkan", "d3d11", "no_std"]
+categories = ["no-std", "os"]
+readme = "README.md"
+
+[dependencies]
+log = { version = "0.4", default-features = false }
+spin = { version = "0.9", default-features = false }
+
