@@ -24,3 +24,10 @@ lpt6
 lpt7
 lpt8
 lpt9
+
+# Added by uploader (secret-leak hardening, 2026-04-18)
+.env
+.secrets
+VOXCLAW.md
+scratch/
+*.local
