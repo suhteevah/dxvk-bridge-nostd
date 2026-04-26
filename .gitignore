@@ -31,3 +31,11 @@ lpt9
 VOXCLAW.md
 scratch/
 *.local
+
+# Added by uploader (secret-leak hardening, 2026-04-18)
+id_rsa
+id_ed25519
+*-key
+.claude/.credentials.json
+C:Users*
+C:Windows*
